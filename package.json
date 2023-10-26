@@ -1,0 +1,23 @@
+{
+  "name": "phase1-project-shopcorner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abduljr0/Phase1-Project-Shopcorner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abduljr0/Phase1-Project-Shopcorner/issues"
+  },
+  "homepage": "https://github.com/Abduljr0/Phase1-Project-Shopcorner#readme",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}

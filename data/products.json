@@ -1,0 +1,152 @@
+{
+  "products": [
+    {
+      "name": "Smartphone",
+      "description": "A high-end smartphone with advanced features.",
+      "price": 799.99,
+      "image_url": "data:image/jpeg;base64,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"
+    },
+    {
+      "name": "Laptop",
+      "description": "A powerful laptop for all your computing needs.",
+      "price": 1099.99,
+      "image_url": "https://example.com/laptop.jpg"
+    },
+    {
+      "name": "Headphones",
+      "description": "Over-ear headphones with noise-cancelling technology.",
+      "price": 149.99,
+      "image_url": "https://example.com/headphones.jpg"
+    },
+    {
+      "name": "Smartwatch",
+      "description": "A sleek smartwatch with health tracking features.",
+      "price": 249.99,
+      "image_url": "https://example.com/smartwatch.jpg"
+    },
+    {
+      "name": "Gaming Console",
+      "description": "A gaming console for immersive gaming experiences.",
+      "price": 399.99,
+      "image_url": "https://example.com/gaming_console.jpg"
+    },
+    {
+      "name": "Tablet",
+      "description": "A versatile tablet for work and entertainment.",
+      "price": 299.99,
+      "image_url": "https://example.com/tablet.jpg"
+    },
+    {
+      "name": "Digital Camera",
+      "description": "A high-resolution digital camera for capturing memories.",
+      "price": 449.99,
+      "image_url": "https://example.com/digital_camera.jpg"
+    },
+    {
+      "name": "Wireless Earbuds",
+      "description": "True wireless earbuds for on-the-go music.",
+      "price": 79.99,
+      "image_url": "https://example.com/earbuds.jpg"
+    }
+  ],
+  "foodstuffs": [
+    {
+      "name": "Chocolate Bar",
+      "description": "A delicious milk chocolate bar.",
+      "price": 2.99,
+      "image_url": "https://example.com/chocolate.jpg"
+    },
+    {
+      "name": "Canned Soup",
+      "description": "A hearty can of chicken noodle soup.",
+      "price": 3.49,
+      "image_url": "https://example.com/soup.jpg"
+    },
+    {
+      "name": "Fresh Apples",
+      "description": "A bag of crisp and juicy apples.",
+      "price": 4.99,
+      "image_url": "https://example.com/apples.jpg"
+    },
+    {
+      "name": "Spaghetti Pasta",
+      "description": "A pack of spaghetti for your favorite pasta dishes.",
+      "price": 1.99,
+      "image_url": "https://example.com/pasta.jpg"
+    },
+    {
+      "name": "Coffee Beans",
+      "description": "Premium coffee beans for your morning brew.",
+      "price": 9.99,
+      "image_url": "https://example.com/coffee.jpg"
+    },
+    {
+      "name": "Soda Cans",
+      "description": "Assorted carbonated beverages in cans.",
+      "price": 5.99,
+      "image_url": "https://example.com/soda.jpg"
+    },
+    {
+      "name": "Fresh Salmon",
+      "description": "Prime cut of salmon for a delicious meal.",
+      "price": 12.99,
+      "image_url": "https://example.com/salmon.jpg"
+    },
+    {
+      "name": "Granola Bars",
+      "description": "Healthy and tasty granola bars for a quick snack.",
+      "price": 3.79,
+      "image_url": "https://example.com/granola.jpg"
+    }
+  ],
+  "toys": [
+    {
+      "name": "Action Figure",
+      "description": "A poseable action figure of a superhero.",
+      "price": 12.99,
+      "image_url": "https://example.com/action_figure.jpg"
+    },
+    {
+      "name": "Board Game",
+      "description": "A classic board game for family fun.",
+      "price": 19.99,
+      "image_url": "https://example.com/board_game.jpg"
+    },
+    {
+      "name": "Soft Plush Toy",
+      "description": "A cute and cuddly stuffed animal.",
+      "price": 7.99,
+      "image_url": "https://example.com/plush_toy.jpg"
+    },
+    {
+      "name": "LEGO Set",
+      "description": "A creative LEGO set for building adventures.",
+      "price": 24.99,
+      "image_url": "https://example.com/lego_set.jpg"
+    },
+    {
+      "name": "Puzzle",
+      "description": "A challenging jigsaw puzzle for hours of entertainment.",
+      "price": 14.99,
+      "image_url": "https://example.com/puzzle.jpg"
+    },
+    {
+      "name": "Remote Control Car",
+      "description": "A remote-controlled car for racing and fun.",
+      "price": 29.99,
+      "image_url": "https://example.com/rc_car.jpg"
+    },
+    {
+      "name": "Doll Set",
+      "description": "A set of dolls for imaginative play.",
+      "price": 19.99,
+      "image_url": "https://example.com/dolls.jpg"
+    },
+    {
+      "name": "Building Blocks",
+      "description": "Interlocking building blocks for creative construction.",
+      "price": 17.99,
+      "image_url": "https://example.com/building_blocks.jpg"
+    }
+  ]
+}
