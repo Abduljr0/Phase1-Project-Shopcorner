@@ -5,6 +5,7 @@ h1{
     text-align:left;
     font-size: 40px;
     cursor: pointer;
+    
 }
 ul {
     list-style-type: none;
@@ -77,10 +78,14 @@ button {
   background: #00bd68;
 }
 div.card{
-    float: left;
+    float:left;
     border-radius: 5px;
     padding: 19px 23px;
 
+}
+div#cards{
+  float: left;
+  flex: content;
 }
 div.card:hover{
 background-color: rgb(226, 226, 226);
