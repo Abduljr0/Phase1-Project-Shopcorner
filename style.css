@@ -170,3 +170,16 @@ ion-icon{
   90%   { transform: scale(1.2); }
   100% { transform: scale(1.1); }
 }
+#name{
+  font-size:larger;
+  font-weight: 500;
+  padding-left: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#price{
+  font-size: larger;
+  font-weight: 500;
+  padding-left: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
