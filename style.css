@@ -20,7 +20,7 @@ ul {
   }
   
   li a {
-    display: block;
+    display:block;
     color: white;
     text-align: center;
     padding: 19px 16px;
@@ -83,9 +83,9 @@ div.card{
     padding: 19px 23px;
 
 }
-div#cards{
+div.card{
   float: left;
-  flex: content;
+  
 }
 div.card:hover{
 background-color: rgb(226, 226, 226);
@@ -116,8 +116,32 @@ h5{
   padding: 10px;
   border: 1px solid #e0e0e0;
 }
-    
+.menu {
+  list-style-type:circle;
+  padding: 0;
+  display:inline;
 
+}
+.menu li {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: beige;
+  display:inline;
+}
+button.menu{
+  margin-left:2rem;
+  text-align: center;
+}
   
-
+img{
+  border:#FFFFFF;
+  border-radius: 5px;
+  box-shadow: #333;
+}
+p{
+  margin-left: 20px;
+}
  

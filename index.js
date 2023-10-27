@@ -1,27 +1,45 @@
- // Function to fetch and display data
- function fetchData() {
-    // Replace 'http://localhost:3000/modelos' with the actual API endpoint URL
-    const apiUrl = 'http://localhost:3000/modelos';
-
-    fetch(apiUrl)
+function populateModelList() {
+  fetch('http://localhost:3000/modelos') 
       .then(response => response.json())
       .then(data => {
-        const dataContainer = document.getElementById('data-container');
+          const modelList = document.getElementById('models');
 
-        // Clear any existing data in the container
-        dataContainer.innerHTML = '';
+          //  the movie menu with film titles
+          data.forEach(model => {
+              const modelName = document.createElement('li');
+              modelName.textContent = model.nome;
+              modelName.className = 'model-nome';
+              // click event listener for each model Name
+              modelName.addEventListener('click',() => {
+                displayModelDetails(model);
+              })
 
-        // Process and display the fetched data
-        data.forEach(model => {
-          const modelElement = document.createElement('div');
-          modelElement.textContent = `Model: ${model.name}, Year: ${model.year}`;
-          dataContainer.appendChild(modelElement);
-        });
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-      });
+              modelList.appendChild(modelName);
+          });
+        })
+      }
+
+  function displayModelDetails(model)  {
+    document.getElementById ('main img').src = model.img;
+    document.getElementById('name') .textContent = model.nome
+    document.getElementById('price') .textContent =model.price
+
+    // display the model details
+    const modelDetails = document.getElementById ('modelDetails');
+    modelDetails.style.display = 'list'; 
   }
+  // show/hide model list when button is clicked 
+  const showModelListButton = document.getElementById('showModels');
+  const modelList = document.getElementById('models');
+  showModelListButton.addEventListener( 'click',()=>{
+    if (modelList.style.display==='none') {
+       modelList.style.display = 'block';
+    }else{
+      modelList.style.display = 'none';
+    }
+  
+  });
 
-  // Call the fetchData function to load data when the page loads
-  fetchData();
+
+  window.onload = populateModelList;
+

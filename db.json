@@ -2,115 +2,95 @@
     "modelos": [
         {
             "price": 5585,
-            "nome": "AMAROK CD2.0 16V/S CD2.0 16V TDI 4x2 Die"
+            "nome": "AMAROK CD2.0 16V/S CD2.0 16V TDI 4x2 Die",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_856411-MLB70711963478_072023-V.webp"
         },
         {
             "price": 5586,
-            "nome": "AMAROK CD2.0 16V/S CD2.0 16V TDI 4x4 Die"
+            "nome": "AMAROK CD2.0 16V/S CD2.0 16V TDI 4x4 Die",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_818499-MLB70946176416_082023-V.webp"
         },
         {
             "price": 9895,
-            "nome": "AMAROK Comfor. 3.0 V6 TDI 4x4 Dies. Aut."
+            "nome": "AMAROK Comfor. 3.0 V6 TDI 4x4 Dies. Aut.",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_661761-MLB72088833387_102023-V.webp"
         },
         {
             "price": 8531,
-            "nome": "AMAROK Comfor. CD 2.0 TDI 4x4 Dies. Aut."
+            "nome": "AMAROK Comfor. CD 2.0 TDI 4x4 Dies. Aut.",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_698702-MLB72036514272_102023-W.webp"
         },
         {
             "price": 5748,
-            "nome": "AMAROK CS2.0 16V/S2.0 16V TDI 4x2 Diesel"
+            "nome": "AMAROK CS2.0 16V/S2.0 16V TDI 4x2 Diesel",
+            "img": "https://resized-images.autoconf.com.br/600x450/filters:format(jpg)/veiculos/fotos/256850/048caa71-bbcc-4b26-ac78-bb8e4f0576c6.jpg"
         },
         {
             "price": 5749,
-            "nome": "AMAROK CS2.0 16V/S2.0 16V TDI 4x4 Diesel"
+            "nome": "AMAROK CS2.0 16V/S2.0 16V TDI 4x4 Diesel",
+            "img": "https://resized-images.autoconf.com.br/768x576/filters:format(jpg)/veiculos/fotos/244086/07b0586a-8c08-4d55-938f-bfa8ff733ae3.jpg"
         },
         {
             "price": 8532,
-            "nome": "AMAROK Extreme CD 3.0 4x4 TB Dies. Aut."
+            "nome": "AMAROK Extreme CD 3.0 4x4 TB Dies. Aut.",
+            "img": "https://cdn.revendamais.com.br/FC/4209/5083192_0_B_88cd1fb4ea.jpg"
         },
         {
-            "price": 7854,
-            "nome": "AMAROK Hig. Extreme CD 2.0 4x4 Dies. Aut"
-        },
-        {
-            "price": 7674,
-            "nome": "AMAROK Hig.ULTIMATE CD 2.0 4x4 Dies. Aut"
-        },
-        {
-            "price": 5940,
-            "nome": "AMAROK High.CD 2.0 16V TDI 4x4 Dies. Aut"
-        },
-        {
-            "price": 5261,
-            "nome": "AMAROK Highline CD 2.0 16V TDI 4x4 Dies."
-        },
-        {
-            "price": 8183,
-            "nome": "AMAROK Highline CD 3.0 4x4 TB Dies. Aut."
-        },
-        {
-            "price": 5476,
-            "nome": "AMAROK SE CD 2.0 16V TDI 4x4 Diesel"
-        },
-        {
-            "price": 7367,
-            "nome": "AMAROK T. Dark Label CD 2.0 4x4 Dies Aut"
-        },
-        {
-            "price": 5350,
-            "nome": "AMAROK Trendline CD 2.0 16V TDI 4x4 Dies"
-        },
-        {
-            "price": 6277,
-            "nome": "AMAROK Trendline CD 2.0 TDI 4X4 Dies Aut"
-        },
-        {
+            
             "price": 2359,
-            "nome": "Apolo GL 1.8"
+            "nome": "Apolo GL 1.8",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_830471-MLB72335297494_102023-W.webp"
         },
         {
             "price": 2360,
-            "nome": "Apolo GLS/ Vip 1.8"
+            "nome": "Apolo GLS/ Vip 1.8",
+            "img": "https://img.olx.com.br/images/94/940345459878804.jpg"
         },
         {
             "price": 2362,
-            "nome": "Bora 2.0 8v Comfortline Aut."
+            "nome": "Bora 2.0 8v Comfortline Aut.",
+            "img": "https://media.autoweek.nl/m/m1by0gobbnyx.jpg"
         },
         {
             "price": 2363,
-            "nome": "Bora 2.0 8v Comfortline Mec."
+            "nome": "Bora 2.0 8v Comfortline Mec.",
+            "img": "https://img.olx.com.br/images/21/210320337314549.jpg"
         },
         {
             "price": 2361,
-            "nome": "Bora 2.0/ 2.0 Flex 8v Aut."
+            "nome": "Bora 2.0/ 2.0 Flex 8v Aut.",
+            "img": "https://img.olx.com.br/images/23/234376807960385.jpg"
         },
-        {
-            "price": 2364,
-            "nome": "Bora 2.0/ 2.0 Flex 8v Mec."
-        },
+       
         {
             "price": 2365,
-            "nome": "Caravelle 2.4 Diesel"
+            "nome": "Caravelle 2.4 Diesel",
+            "img": "https://c.encycarpedia.com/ci/3349.jpg"
         },
         {
             "price": 2366,
-            "nome": "Corrado 2.0 Turbo"
+            "nome": "Corrado 2.0 Turbo",
+            "img": "https://www.ultimatespecs.com/cargallery/16/527/w400_Volkswagen-Corrado-2.jpg"
         },
         {
             "price": 2367,
-            "nome": "Corrado G-60 2.8"
+            "nome": "Corrado G-60 2.8",
+            "img": "https://img.autoabc.lv/Volkswagen-corrado/Volkswagen-corrado_1989_Kupeja_15101354202_0_m.jpg"
         },
         {
             "price": 7077,
-            "nome": "CROSSFOX  1.6 T. Flex 16V 5p"
+            "nome": "CROSSFOX  1.6 T. Flex 16V 5p",
+            "img": "https://static2.meucarronovo.com.br/imagens-dinamicas/lista/fotos/r/33332/v/21568559/L7uebD1x92e.jpg"
         },
         {
             "price": 7078,
-            "nome": "CROSSFOX  I MOTION 1.6 T. Flex 16V 5p"
+            "nome": "CROSSFOX  I MOTION 1.6 T. Flex 16V 5p",
+            "img": "https://img0.icarros.com/dbimg/galeriaimgmodelo/2/41161_1.webp"
         },
         {
             "price": 2368,
-            "nome": "CROSSFOX 1.6 Mi Total Flex 8V 5p"
+            "nome": "CROSSFOX 1.6 Mi Total Flex 8V 5p",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_939730-MLB70191842354_062023-W.webp"
         }
     ]
 }
