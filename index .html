@@ -23,16 +23,22 @@
                 <a class="nav-link" href="#">Link</a>
               </li>
               <form id="d-flex">
-                <input type="text" id="searchInput" placeholder="Search...">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
               </form>
               
-             
+              
+  <ul id="searchResults">
+    <!-- Matching items will be displayed here -->
+  </ul>
+  <div id="cardsContainer">
+    <!-- Card elements will be added here -->
+  </div>
             </ul>
            </div>
         </div>
       </nav>
-      
+   
       <button id ="showModels" class ="menu">Models</button>
       <ul id="models"  class = "menu"style="display: none;">
         <!-- Dynamic list items will be added here -->
@@ -41,54 +47,60 @@
       <div id ="modelDetails" class="model-details"></div>
       <img src="" alt="main img"id="main img" width = '700' height="500">
       <p><strong>Model:</strong><span id ="name"></span></p>
-      <p><strong> Price:</strong><span id ="price">euros</span></p>
+      <p><strong> Price:</strong><span id ="price"></span></p>
 
       <div  id= "cardContainer"class="card" style="width: 20rem;">
-        <img src="https://http2.mlstatic.com/D_NQ_NP_818499-MLB70946176416_082023-V.webp"  width= " 330" height= "240" class= "card-img-top" alt="...">
+        <img src="https://resized-images.autoconf.com.br/600x450/filters:format(jpg)/veiculos/fotos/256850/048caa71-bbcc-4b26-ac78-bb8e4f0576c6.jpg" width= " 330" height= "240" class= "card-img-top" alt="...">
         <div class="card-body">
 
-          <h5 class="card-title"></h5>
-          <p class="card-text">.</p>
+          <h5 class="card-title">AMAROK CS2.0 16V/S2.0 16V TDI 4x2 Diesel</h5>
+          <p class="card-text"> Price: 5748 </p>
           <div class='large-font text-center top-20'>
-            <ion-icon name="heart">
-              <div class='red-bg'></div>
-            </ion-icon>
-          </div>
-        </div>
-      </div>
-      <div id = "cardContainer"class="card" style="width: 20rem;">
-        <img src="https://img.olx.com.br/images/34/341338416685900.jpg"  width = '330' height="240" class="card-img-top" alt="...">
-        
-        <div class="card-body">
-          <h5 class="card-title">Apollo</h5>
-          <p class="card-text"></p>
-          <a href="#" class="btn btn-primary"></a>
+  <ion-icon name="heart">
+    <div class='red-bg'></div>
+  </ion-icon>
+</div>
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img src="https://img.olx.com.br/images/60/604344688798408.jpg" width= '330' height="240" card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">VW Bora 2.0 AT 2008 - Super preserved</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" id = "cards"style="width: 20rem;">
-        <img src="https://img.olx.com.br/images/34/341338416685900.jpg"  width = '330' height="240" class="card-img-top" alt="...">
+        <img src="https://resized-images.autoconf.com.br/768x576/filters:format(jpg)/veiculos/fotos/244086/07b0586a-8c08-4d55-938f-bfa8ff733ae3.jpg" width = '330' height="240" class="card-img-top" alt="...">
         
         <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">AMAROK CS2.0 16V/S2.0 16V TDI 4x4 Diesel</h5>
+          <p class="card-text">Price: 5749</p>
+          
         </div>
       </div>
-      
+      <div class="card" style="width: 20rem;">
+        <img src="https://cdn.revendamais.com.br/FC/4209/5083192_0_B_88cd1fb4ea.jpg" width= '330' height="240" card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">AMAROK Extreme CD 3.0 4x4 TB Dies. Aut</h5>
+          <p class="card-text">Price: 8532</p>
     
+        </div>
+      </div>
 
+      <div class="form-floating">
+      <h2>Seller's input</h2>
+      <p> Here is where you add product you want to sell</p>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Description" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">description</label>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Price Range" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">price range</label>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Url" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">img url</label>
+      </div>
+      <input class="primary" type="submit" value="Submit">
+  </div>
 
    
 
-    <!-- Add more comments here -->
+    
     <script src="index.js"></script>
 </body>
 </html>
